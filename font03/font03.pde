@@ -27,7 +27,7 @@ for(i = 0; i < 6; i++ ){
     //rect(X,  Y , grain_size, grain_size);
     float d = map(X,x[0],x[i+1],dot_size,dot_size * 0.3);
     //rect( X , Y , d, d);
-    ellipse( X  , Y  , d, d);
+    rect( X  , Y  , d, d);
     }
   }
 }
